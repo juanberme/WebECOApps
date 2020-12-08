@@ -1,3 +1,39 @@
+#ilus{
+
+    position: absolute;
+    width: 1153;
+    height: 810.21;
+    left: -49px;
+    top: 5.67px;
+
+}
+
 #fondo{
+    position: relative;
+    width: 1152px;
+    height: 700px;
+
     background: #5522AA;
+}
+
+#puntos{
+
+    position: absolute;
+    width: 1124.45px;
+    height: 690.69px;
+    left: 0px;
+    top: 0px;
+
+
+}
+
+#ingresarBtn{
+    position: absolute;
+    width: 176px;
+    height: 44px;
+    background: #FFB900;
+    color: #5522AA;
+    border-radius: 5px;
+    top: 337px;
+    left: 839px;
 }
