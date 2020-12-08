@@ -1,9 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Sign Up</title>
+        <link rel = "stylesheet" href="css/signUp.css">
     </head>
-    <body>
-        
+    <body style="background-color: #f1f1f1;">
+        <img src="imagenes/cheer.png"/>
+        <div id="square">
+            <h3> Crea tu cunta para hacer conocer tu fundación</h3>
+            <input id="fundacion" type="text" placeholder="Nombre de la fundacion"> <br>
+            <input id="email" type="text" placeholder="E-mail"> <br>
+            <input id="password" type="password" placeholder="Contraseña"> <br>
+            <input id="Rpassword" type="password" placeholder="Confirmar contraseña"> <br>
+
+            <button id="ingresarBtn"> Registrarse </button>
+
+            <p id="linkSignIn"> <a href="SignIn.html">¿Ya tienes una cuenta? Ingresa.</a></p>
+            
+        </div>
+        <div>
+            <img id ="logoViolete" src="imagenes/logo-violete.png"/>
+        </div>
+
+
     </body>
 </html>
+
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyB_uvSS9ZRyksHuGjyUsnjYHhvpcsoCRf0",
+    authDomain: "pp2ecoapps.firebaseapp.com",
+    databaseURL: "https://pp2ecoapps-default-rtdb.firebaseio.com",
+    projectId: "pp2ecoapps",
+    storageBucket: "pp2ecoapps.appspot.com",
+    messagingSenderId: "594259624577",
+    appId: "1:594259624577:web:d949e34a371b45f4fe8380",
+    measurementId: "G-8VV27B9PMY"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<script src="js/signUp.js"></script>
