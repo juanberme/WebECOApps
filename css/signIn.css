@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+#logoViolete {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#square {
+position: absolute;
+background: #5522AA;
+width: 446px;
+height: 499px;
+left: 353px;
+top: 100px;
+border-radius: 40px;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+#square h3 {
+    
+    font-size: 20px;
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+}
+
+#email {
+   background-color:  #5522AA;
+    width: 382px;
+    height: 44px;
+    margin-left: 32px;
+    margin-top: 43px;
+    border: 1px solid #8D61E3;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+::placeholder {
+    color:#B08BF9;
+  }
+
+#password {
+    background-color:  #5522AA;
+    width: 382px;
+    height: 44px;
+    margin-top: 10px;
+    margin-left: 32px;
+    border: 1px solid #8D61E3;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+#ingresarBtn {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    color: #5522AA;
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 32px;
+    width: 382px;
+    height: 44px;
+    background: #FFB900;
+    box-shadow: 4px 4px 10px rgba(44, 18, 88, 0.4);
+    border-radius: 5px;
+
+}
+
+a {
+    color: #FFB900;
+  }
+
+#linkSignUp {
+position: absolute;
+margin-left: 125px;
+margin-top: 210px;
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+
+display: flex;
+align-items: center;
+text-align: center;
+}
