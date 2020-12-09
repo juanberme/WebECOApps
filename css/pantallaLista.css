@@ -1,19 +1,19 @@
 #logoBlanco{
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 5%;
+  left: 3%;
 }
 
-#fondoHome{
-position: absolute;
-left: 50.4px;
-top: 51.76px;
+#home{
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 #logOut {
 position: absolute;
-top: 20px;
-right: 20px;
+top: 3%;
+right: 3%;
 font-family: 'DM Sans', sans-serif;
 font-weight: bold;
 color: #5522AA;
@@ -32,6 +32,10 @@ border-radius: 5px;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
   font-size: 20px;
+}
 
-
+#ilustracionLista{
+  position: absolute;
+  right: 0%;
+  bottom: 2%;
 }
