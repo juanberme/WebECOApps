@@ -7,21 +7,25 @@
 }
 
 #square {
-position: absolute;
-background: #5522AA;
-width: 446px;
-height: 499px;
-left: 353px;
-top: 100px;
-border-radius: 40px;
+    position: absolute;
+    background: #5522AA;
+    width: 446px;
+    height: 499px;
+    left: 35%;
+    top: 20%;
+    border-radius: 40px;
 }
 
 body {
     font-family: 'DM Sans', sans-serif;
 }
 
-#square h3 {
-    
+#puntos {
+    width: 100%;
+    height: 100%;
+}
+
+h3 {
     font-size: 20px;
     margin-top: 55px;
     text-align: center;
@@ -29,7 +33,7 @@ body {
 }
 
 #email {
-   background-color:  #5522AA;
+    background-color:  #5522AA;
     width: 382px;
     height: 44px;
     margin-left: 32px;
@@ -86,4 +90,11 @@ line-height: 15px;
 display: flex;
 align-items: center;
 text-align: center;
+}
+
+#logoViolete{
+    width: 10%;
+    height: 7%;
+    left: 30px;
+    top: 30px;
 }

@@ -9,7 +9,7 @@ auth.onAuthStateChanged(
             'value',
             (data)=> {
                 let userFundationDB = data.val();
-                nombreFundacion.innerHTML="Hola!"+" "+userFundationDB.laFundacion+","+" "+"estas son tus solicitudes pendientes:";
+                nombreFundacion.innerHTML="Hola fundación"+" "+userFundationDB.laFundacion+"!"+" "+"estas son tus solicitudes pendientes:";
             }
         )
 
