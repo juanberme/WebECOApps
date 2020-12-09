@@ -8,7 +8,7 @@ const linkSignUp = document.getElementById('linkSignUp');
 ingresarBtn.addEventListener ('click', () => {
     auth.signInWithEmailAndPassword(email.value, password.value). then(
         (data) => {
-            alert("Arepas");
+            window.location.href='pantallaLista.html';
         }
     ).catch(
         (error)=>{

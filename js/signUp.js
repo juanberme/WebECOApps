@@ -1,5 +1,6 @@
 const database = firebase.database();
 const auth = firebase.auth();
+
 const fundacion = document.getElementById('fundacion');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
@@ -22,15 +23,15 @@ auth.onAuthStateChanged(
                     Rpassword: Rpassword.value
                 };
                 //Se crea en el db
-                database.ref('ADO/Fundacion'+userFundationDB.id).set(userFundationDB).then (
+                database.ref('Ado/fundacion/'+userFundationDB.id).set(userFundationDB).then (
                     () => {
                         //va al home
-                        alert("Si funciona");
+                        window.location.href="pantallaLista.html";
                     }
                 );
             } else {
                 //Si ya estoy loggeado y entro a registro me lleva al home
-                alert("Epa");
+                window.location.href="pantallaLista.html";
             }
         }
     }
