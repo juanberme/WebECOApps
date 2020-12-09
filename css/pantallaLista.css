@@ -24,3 +24,14 @@ box-shadow: 4px 4px 10px rgba(44, 18, 88, 0.4);
 border-radius: 5px;
 }
 
+#nombreFundacion {
+  position: absolute;
+  left: 191px;
+  top: 200px;
+  color: #5522AA;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+
+}

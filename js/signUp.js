@@ -17,10 +17,9 @@ auth.onAuthStateChanged(
                 //depositar datos
                 let userFundationDB = {
                     id: userFundation.uid,
-                    fundacion: fundacion.value,
-                    email: email.value,
-                    password: password.value,
-                    Rpassword: Rpassword.value
+                    laFundacion: fundacion.value,
+                    elEmail: email.value,
+                    laPassword: password.value,
                 };
                 //Se crea en el db
                 database.ref('Ado/fundacion/'+userFundationDB.id).set(userFundationDB).then (
@@ -38,7 +37,8 @@ auth.onAuthStateChanged(
 );
 //Realizo el registro
 ingresarBtn.addEventListener('click', ()=> {
-
+    isSignUp = true;
+    console.log(email.value)
     //Crear usuario en authentication
     auth.createUserWithEmailAndPassword(email.value, password.value);
 });

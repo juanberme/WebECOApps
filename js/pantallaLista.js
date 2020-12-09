@@ -2,6 +2,19 @@ const database = firebase.database();
 const auth = firebase.auth();
 const logOut = document.getElementById('logOut');
 
+
+auth.onAuthStateChanged(
+    (userFundation) => {
+        database.ref('Ado/fundacion/'+userFundation.uid).on (
+            'value',
+            (data)=> {
+                let userFundationDB = data.val();
+                nombreFundacion.innerHTML="Hola!"+" "+userFundationDB.laFundacion+","+" "+"estas son tus solicitudes pendientes:";
+            }
+        )
+
+    }
+);
 logOut.addEventListener('click', () => {
     auth.signOut().then(
         ()=>{
