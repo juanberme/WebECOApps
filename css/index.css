@@ -16,6 +16,13 @@
     background: #5522AA;
 }
 
+#logoBlanco{
+    position: absolute;
+    width: 126px;
+    height: 50px;
+    left: 978px;
+    top: 50px;
+}
 
 #puntos{
 

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+#aceptarBtn{
+    position: absolute;
+    width: 119px;
+    height: 47px;
+    left: 351px;
+    top: 500px;
+    background: #FFB900;
+    color: #5522AA;
+    border-radius: 5px;
+}
+
+#declinarBtn{
+    position: absolute;
+    width: 119px;
+    height: 47px;
+    left: 488px;
+    top: 500px; 
+    background: #AFAFAF;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+#ilustracionDatos{
+    position: absolute;
+    width: 457px;
+    height: 457px;
+    left: 686px;
+    top: 186px;
+}
+
+#fondoDatos{
+    position: relative;
+    width: 1152px;
+    height: 700px
+}
+
+#logoBlanco{
+    position: absolute;
+    width: 126px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+}
+
