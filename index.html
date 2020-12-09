@@ -4,35 +4,25 @@
         <title>ADO</title>
         <link rel="stylesheet" href="css/index.css">
     </head>
-    <body >
+    <body style="background-color: #5522AA;">
         <div id="fondo">
-            <div id="puntos">
-                <img src="imagenes/putos.png"/>
-            </div>
-            
-            <div id="ilus">
-                <img src="imagenes/ilustracion.png"/>
-            </div>
 
-            <div id="logoBlanco">
-                <img src="imagenes/LOGO.png">
-            </div>
-            <button id="ingresarBtn">Ingresar</button>
+                <img src="imagenes/puntos.png"/>
+                <img id="ilus" src="imagenes/ilustracion.png"/>
+                <img id="logoBlanco" src="imagenes/LogoBlanco.png"/>
+           
+            <button id="ingresarBtn"> Ingresar </button> <br>
+            <button id="registerBtn"> Registrarse </button>
+
         </div>
         
     </body>
 </html>
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
-
 <script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
   var firebaseConfig = {
     apiKey: "AIzaSyB_uvSS9ZRyksHuGjyUsnjYHhvpcsoCRf0",
     authDomain: "pp2ecoapps.firebaseapp.com",
@@ -43,9 +33,9 @@
     appId: "1:594259624577:web:d949e34a371b45f4fe8380",
     measurementId: "G-8VV27B9PMY"
   };
-  // Initialize Firebase
+
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+
 </script>
 <script src="js/index.js"></script>
 

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 #ilus{
 
     position: absolute;
@@ -8,12 +9,31 @@
 
 }
 
-#fondo{
-    position: relative;
-    width: 1152px;
-    height: 700px;
+#ingresarBtn{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    width: 176px;
+    height: 44px;
+    background: #FFB900;
+    color: #5522AA;
+    border-radius: 5px;
+    top: 337px;
+    right: 137px;
+}
 
-    background: #5522AA;
+#registerBtn {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    width: 176px;
+    height: 44px;
+    margin-top: 100;
+    background: #FFB900;
+    color: #5522AA;
+    border-radius: 5px;
+    top: 391px;
+    right: 137px;
 }
 
 #logoBlanco{
@@ -22,26 +42,4 @@
     height: 50px;
     left: 978px;
     top: 50px;
-}
-
-#puntos{
-
-    position: absolute;
-    width: 1124.45px;
-    height: 690.69px;
-    left: 0px;
-    top: 0px;
-
-
-}
-
-#ingresarBtn{
-    position: absolute;
-    width: 176px;
-    height: 44px;
-    background: #FFB900;
-    color: #5522AA;
-    border-radius: 5px;
-    top: 337px;
-    left: 839px;
 }
