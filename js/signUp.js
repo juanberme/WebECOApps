@@ -22,7 +22,7 @@ auth.onAuthStateChanged(
                     laPassword: password.value,
                 };
                 //Se crea en el db
-                database.ref('Ado/fundacion/'+userFundationDB.id).set(userFundationDB).then (
+                database.ref('Ado/fundacion/'+userFundationDB.laFundacion).set(userFundationDB).then (
                     () => {
                         //va al home
                         window.location.href="pantallaLista.html";
