@@ -2,16 +2,16 @@ const database = firebase.database();
 const auth = firebase.auth();
 const logOut = document.getElementById('logOut');
 
-let theUser = userFundationDB.laFundacion;
+
 
 
 auth.onAuthStateChanged(
-    (userFundation) => {
-        database.ref('Ado/fundacion/'+userFundation.laFundacion).on (
+    (userFuncionario) => {
+        database.ref('Ado/funcionario/'+userFuncionario.uid).on (
             'value',
             (data)=> {
-                let userFundationDB = data.val();
-                nombreFundacion.innerHTML="Hola fundación"+" "+userFundationDB.laFundacion+"!"+" "+"estas son tus solicitudes pendientes:";
+                let userFuncionarioDB = data.val();
+                nombreFundacion.innerHTML="Hola fundación"+" "+userFuncionarioDB.laFundacion+"!"+" "+"estas son tus solicitudes pendientes:";
             }
         )
 
