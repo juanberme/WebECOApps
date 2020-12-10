@@ -14,7 +14,6 @@ auth.onAuthStateChanged(
                 nombreFundacion.innerHTML="Hola fundación"+" "+userFundationDB.laFundacion+"!"+" "+"estas son tus solicitudes pendientes:";
             }
         )
-
     }
 
     

@@ -1,5 +1,14 @@
 class panListaRender{
 
-    constructor()
+    constructor(){
+
+    }
+
+    render = () =>{
+        let component = document.createElement('div');
+        component.className = 'solicitudes';
+
+        
+    }
 
 }
