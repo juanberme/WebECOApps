@@ -11,18 +11,18 @@ const linkSignIn = document.getElementById('linkSignIn');
 var isSignUp = false;
 
 auth.onAuthStateChanged(
-    (userFundation) => {
-        if (userFundation != null) {
+    (userFuncionario) => {
+        if (userFuncionario != null) {
             if (isSignUp) {
                 //depositar datos
-                let userFundationDB = {
-                    id: userFundation.uid,
+                let userFuncionarioDB = {
+                    id: userFuncionario.uid,
                     laFundacion: fundacion.value,
                     elEmail: email.value,
                     laPassword: password.value,
                 };
                 //Se crea en el db
-                database.ref('Ado/fundacion/'+userFundationDB.laFundacion).set(userFundationDB).then (
+                database.ref('Ado/funcionario/'+userFuncionarioDB.id).set(userFuncionarioDB).then (
                     () => {
                         //va al home
                         window.location.href="pantallaLista.html";
