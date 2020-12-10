@@ -14,7 +14,12 @@ auth.onAuthStateChanged(
         )
 
     }
+
+    
+
 );
+
+
 logOut.addEventListener('click', () => {
     auth.signOut().then(
         ()=>{
