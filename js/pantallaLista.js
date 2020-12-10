@@ -2,10 +2,12 @@ const database = firebase.database();
 const auth = firebase.auth();
 const logOut = document.getElementById('logOut');
 
+let theUser = userFundationDB.laFundacion;
+
 
 auth.onAuthStateChanged(
     (userFundation) => {
-        database.ref('Ado/fundacion/'+userFundation.uid).on (
+        database.ref('Ado/fundacion/'+userFundation.laFundacion).on (
             'value',
             (data)=> {
                 let userFundationDB = data.val();
@@ -14,7 +16,12 @@ auth.onAuthStateChanged(
         )
 
     }
+
+    
+
 );
+
+
 logOut.addEventListener('click', () => {
     auth.signOut().then(
         ()=>{

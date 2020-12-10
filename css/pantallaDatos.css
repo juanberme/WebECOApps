@@ -54,8 +54,10 @@ body{
 
 #logoBlanco{
     position: absolute;
-    left: 3%;
-    top: 5%;
+    width: 10%;
+    height: 6%;
+    left: 30px;
+    top: 30px;
 }
 
 #ilustracionDatos{

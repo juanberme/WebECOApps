@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
+body {
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+}
+
 #logoViolete {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    width: 10%;
+    height: 6%;
+    left: 30px;
+    top: 30px; 
 }
 
 #square {
@@ -16,9 +23,7 @@
     border-radius: 40px;
 }
 
-body {
-    font-family: 'DM Sans', sans-serif;
-}
+
 
 #puntos {
     width: 100%;

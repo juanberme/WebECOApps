@@ -1,13 +1,21 @@
+body {
+  position: relative;
+}
 #logoBlanco{
   position: absolute;
-  top: 5%;
-  left: 3%;
+    width: 10%;
+    height: 8%;
+    left: 30px;
+    top: 30px;
 }
 
 #home{
   position: absolute;
   width: 100%;
   height: 100%;
+  left: 0px;
+  top: 0px;
+  padding: 0%;
 }
 
 #logOut {

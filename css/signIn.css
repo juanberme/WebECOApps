@@ -7,8 +7,10 @@ body {
 
 #logoViolete {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    width: 10%;
+    height: 6%;
+    left: 30px;
+    top: 30px;
 }
 
 #square {
