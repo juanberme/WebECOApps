@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 
+body {
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+}
+
 #logoViolete {
     position: absolute;
     top: 20px;
@@ -16,9 +21,7 @@
     border-radius: 40px;
 }
 
-body {
-    font-family: 'DM Sans', sans-serif;
-}
+
 
 #puntos {
     width: 100%;
@@ -41,6 +44,7 @@ h3 {
     border: 1px solid #8D61E3;
     box-sizing: border-box;
     border-radius: 4px;
+    color: #B08BF9
 }
 
 ::placeholder {
@@ -56,6 +60,7 @@ h3 {
     border: 1px solid #8D61E3;
     box-sizing: border-box;
     border-radius: 4px;
+    color: #B08BF9
 }
 
 #ingresarBtn {
@@ -93,8 +98,9 @@ text-align: center;
 }
 
 #logoViolete{
+    position: absolute;
     width: 10%;
-    height: 7%;
+    height: 6%;
     left: 30px;
     top: 30px;
 }
