@@ -48,14 +48,27 @@ border-radius: 5px;
   bottom: 2%;
 }
 
-#nombres{
-    padding: 1em;
-    position: relative;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    width: 15em;
-    border-radius: 0.8em;
-    background:#FFE3B3;
-    height: 5em;
-    color:  #2EA67A;
+.solicitudes {
+  position: absolute;
+  width: 436px;
+  height: 47px;
+  left: 191px;
+  top: 257px; 
+  background: #5522AA;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+
+}
+
+.eachsolicitudes {
+  font-family: 'DM Sans', sans-serif;
+font-weight: bold;
+  position: absolute;
+  left: 19px;
+  top:13px;
+  
 }

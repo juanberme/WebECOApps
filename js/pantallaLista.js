@@ -12,7 +12,7 @@ auth.onAuthStateChanged(
             'value',
             (data)=> {
                 let userFuncionarioDB = data.val();
-                nombreFundacion.innerHTML="Hola fundación"+" "+userFuncionarioDB.laFundacion+"!"+" "+"estas son tus solicitudes pendientes:";
+                nombreFundacion.innerHTML="Hola"+" "+userFuncionarioDB.laFundacion+"!"+" "+"Estas son tus solicitudes pendientes:";
             }
         )
 
@@ -29,6 +29,19 @@ auth.onAuthStateChanged(
         }
 
         );
+
+       /* database.ref('Ado/fundacion/Fundación Veterinaria huellitas/solicitudes/').on('value', function(data1){
+            nombres.innerHTML = '';
+            data1.forEach(
+                adoptante => {
+                let valor = adoptante.val();
+                console.log(valor.id);
+                let render1 = new panListaRender(valor);
+                nombres.appendChild(render1.render());
+            });
+        }
+
+        );*/
 
         
     }
@@ -50,3 +63,7 @@ logOut.addEventListener('click', () => {
     );
     
 });
+
+/*nombres.addEventListener('click', ()=>{
+    window.location.href="pantallaDatos.html";
+});*/
