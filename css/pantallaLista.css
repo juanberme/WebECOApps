@@ -47,3 +47,8 @@ border-radius: 5px;
   right: 0%;
   bottom: 2%;
 }
+
+#nombres{
+  position: absolute;
+  color: black;
+}
