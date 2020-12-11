@@ -49,7 +49,7 @@ border-radius: 5px;
 }
 
 .solicitudes {
-  position: absolute;
+  position: relative;
   width: 436px;
   height: 47px;
   left: 191px;
