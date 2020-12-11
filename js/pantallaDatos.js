@@ -1,20 +1,31 @@
 const database = firebase.database();
 const auth = firebase.auth();
 
+const datos = document.getElementById('datos');
 
-const fundacion = document.getElementById('fundacion');
-const nombre = document.getElementById('nombre');
-const salario = document.getElementById('salario');
-const cedula = document.getElementById('cedula');
-const correo = document.getElementById('correo');
-const direccion = document.getElementById('direccion');
-const estrato = document.getElementById('estrato');
-const estado = document.getElementById('estado');
+//para saber quien esta
+auth.onAuthStateChanged(
+    (userFuncionario)=>{
+        //si entra a index y no hay usuario lo devuelve
+        if(userFuncionario == null){
+            window.location.href = 'SignUp.html';
+        }else{
+            database.ref('Ado/fundacion/Fundación Sisben para Perros y Gatos/solicitudes/').on(
+                'value',
+                (data)=>{
+                    data.forEach(
+                        adoptante => {
+                            let valor = adoptante.val();
+                            console.log(valor);
 
-let objSoli = localStorage.getItem('adoptante');
-
-let adoptante = JSON.parse(objSoli);
-
-//lectura
+                            let render = new panDatosRender(valor);
+                            datos.appendChild(render.render());
+                        }
+                    );
+                }); 
+            
+        }
+    }
+);
 
 

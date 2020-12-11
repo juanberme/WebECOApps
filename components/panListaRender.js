@@ -13,7 +13,6 @@ class panListaRender{
         component.innerHTML = (
             this.adoptante.nombre
         );
-
         
         component.appendChild(solicite);
 
