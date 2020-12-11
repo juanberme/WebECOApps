@@ -19,7 +19,8 @@ auth.onAuthStateChanged(
         //lectura del firebase
         database.ref('Ado/fundacion/Fundación Sisben para Perros y Gatos/solicitudes/').on('value', function(data1){
             nombres.innerHTML = '';
-            data1.forEach(adoptante => {
+            data1.forEach(
+                adoptante => {
                 let valor = adoptante.val();
                 console.log(valor.id);
                 let render = new panListaRender(valor);
@@ -38,7 +39,7 @@ auth.onAuthStateChanged(
 
 
 logOut.addEventListener('click', () => {
-    /*auth.signOut().then(
+    auth.signOut().then(
         ()=>{
             window.location.href="SignIn.html";
         }
@@ -46,6 +47,6 @@ logOut.addEventListener('click', () => {
         (error) => {
             alert(error.message);
         }
-    );*/
+    );
     
 });

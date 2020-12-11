@@ -49,6 +49,13 @@ border-radius: 5px;
 }
 
 #nombres{
-  position: absolute;
-  color: black;
+    padding: 1em;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 15em;
+    border-radius: 0.8em;
+    background:#FFE3B3;
+    height: 5em;
+    color:  #2EA67A;
 }

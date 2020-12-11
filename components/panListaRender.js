@@ -15,11 +15,7 @@ class panListaRender{
         );
 
         component.appendChild(solicite);
-
-
-        return component;
-
-        
+        return component;        
     }
 
 }
