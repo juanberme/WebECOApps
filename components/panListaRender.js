@@ -6,12 +6,12 @@ class panListaRender{
 
     render = () =>{
 
-        let component = document.createElement('button');
+        let component = document.createElement('div');
         component.className = 'solicitudes';
 
         let solicite = document.createElement('div');
-        solicite.className = 'eachsolicitudes';
-        solicite.innerHTML = (
+        //component.className = 'eachsolicitudes';
+        component.innerHTML = (
             this.adoptante.nombre
         );
 
