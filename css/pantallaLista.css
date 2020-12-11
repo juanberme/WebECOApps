@@ -1,6 +1,4 @@
-body {
-  position: relative;
-}
+
 #logoBlanco{
   position: absolute;
     width: 10%;
@@ -9,19 +7,23 @@ body {
     top: 30px;
 }
 
-#home{
-  position: absolute;
+#puntos{
   width: 100%;
   height: 100%;
-  left: 0px;
-  top: 0px;
-  padding: 0%;
+}
+
+#fondoHome{
+  position: absolute;
+  right: 0%;
+  top: 10%;
+  width: 95%;
+  height: 100%;
 }
 
 #logOut {
 position: absolute;
-top: 3%;
-right: 3%;
+top: 6%;
+right: 6%;
 font-family: 'DM Sans', sans-serif;
 font-weight: bold;
 color: #5522AA;
@@ -34,8 +36,8 @@ border-radius: 5px;
 
 #nombreFundacion {
   position: absolute;
-  left: 191px;
-  top: 200px;
+  left: 20%;
+  top: 30%;
   color: #5522AA;
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
@@ -49,30 +51,22 @@ border-radius: 5px;
 }
 
 .solicitudes {
+ 
+  padding: 15px;
   position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 436px;
-  height: 47px;
-  left: 191px;
-  top: 257px; 
+  border-radius: 5px;
   background: #5522AA;
   color: white;
-  border-radius: 5px;
+  left: 23%;
+  top: 280px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  align-items: center; 
+
   font-family: 'DM Sans', sans-serif;
   font-weight: bold;
-  left: 19px;
-  top:13px;margin-top: 20px;
-  
 
 }
 
-.eachsolicitudes {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: bold;
-  position: absolute;
-  left: 19px;
-  top:13px;
-  
-}

@@ -10,7 +10,6 @@ class panListaRender{
         component.className = 'solicitudes';
 
         let solicite = document.createElement('div');
-        //component.className = 'eachsolicitudes';
         component.innerHTML = (
             this.adoptante.nombre
         );
