@@ -1,8 +1,8 @@
 const database = firebase.database();
 const auth = firebase.auth();
+const aceptarBtn = document.getElementById('aceptarBtn');
 
 const logOut = document.getElementById('logOut');
-const nombres = document.getElementById('nombres');
 
 
 auth.onAuthStateChanged(
@@ -49,6 +49,6 @@ logOut.addEventListener('click', () => {
     
 });
 
-/*nombres.addEventListener('click', ()=>{
+aceptarBtn.addEventListener('click', ()=>{
     window.location.href="pantallaDatos.html";
-});*/
+});
